@@ -50,7 +50,7 @@ console.log(csvContent);
 
 //console.log(  msgFiles.length);
 
-let msgFileBuffer = fs.readFileSync("HECdistribution.com New customer order (743470) - April 22 2020 (15.0 KB).msg");
+let msgFileBuffer = fs.readFileSync("Choose your file name");
 let msg = new MsgReader(msgFileBuffer);
 let msgInfo = msg.getFileData();
 // console.log(msgInfo.body.split(" "));
